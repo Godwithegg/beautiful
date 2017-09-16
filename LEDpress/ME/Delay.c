@@ -1,5 +1,0 @@
-#include "stm32f10x.h"
-void Delay(__IO u32 nCount)
-{
-	for(;nCount!=0;nCount--);
-}
